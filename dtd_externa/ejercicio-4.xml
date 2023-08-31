@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "ejercicio-4.dtd">
+<?xml-stylesheet type="text/css" href="ejercicio-4.css"?> 
+<!-- ejercicio-4.xml G01 -->
+<biblioteca>
+    <libro>
+        <titulo>El Principito</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <anio>1943</anio>
+        <genero> Literatura infantil</genero>
+        <genero>Ficción especulativa</genero>
+        <genero>Novela corta</genero>
+        <genero>Fábula</genero>
+    </libro>
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <anio>1605</anio>
+        <genero> Ficción de aventuras</genero>
+        <genero>Farsa</genero>
+        <genero>Novela picaresca</genero>
+        <genero>Sátira</genero>
+        <genero>Novela</genero>
+    </libro>
+</biblioteca>

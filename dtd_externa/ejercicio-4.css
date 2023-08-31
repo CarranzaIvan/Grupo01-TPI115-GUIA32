@@ -1,0 +1,33 @@
+* {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e0e4cc;
+}
+/*#69d2e7 celestes #a7dbd8 #e04cc gris-+ #f38630 anaranjado*/
+/**#1cbbc4 celeste  #4fd190 verde  #ffb762 naranja #ff9459 naranja2*/
+biblioteca {
+  padding: 20px;
+}
+libro {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin: 1px;
+}
+titulo {
+  color: #ff9459;
+  font-weight: 900;
+  padding: 5px 0; /*top-botton lados*/
+}
+
+autor,
+anio {
+  color: #f38630;
+  padding-left: 5px;
+}
+genero {
+  color: #4fd190;
+  padding-left: 5px;
+  font-weight: bold;
+}
