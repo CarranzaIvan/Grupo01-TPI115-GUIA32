@@ -22,4 +22,5 @@
         <genero>Sátira</genero>
         <genero>Novela</genero>
     </libro>
+    <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="_self">Inicio</a>
 </biblioteca>

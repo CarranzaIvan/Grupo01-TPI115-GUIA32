@@ -1,4 +1,9 @@
-<!ELEMENT biblioteca (libro+)>
+<!ELEMENT biblioteca (libro+, a)>
+<!ELEMENT a(#PCDATA)>
+<!ATTLIST a 
+  href CDATA #IMPLIED
+  xmlns CDATA #IMPLIED
+  target (_blank|_self) "_self">
 <!ELEMENT libro (titulo, autor, anio, genero*)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
