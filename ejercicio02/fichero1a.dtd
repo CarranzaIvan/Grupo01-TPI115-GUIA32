@@ -1,0 +1,11 @@
+<!—ficheroa.dtd -->
+<!ELEMENT fichero (ficha+)>
+<!ELEMENT ficha (nombre, apellido, estatura*, direccion*, DUI?, ISSS?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+<!ATTLIST nombre edad  CDATA  #IMPLIED>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT estatura (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT DUI (#PCDATA)>
+<!ELEMENT ISSS (#PCDATA)>
