@@ -1,0 +1,8 @@
+﻿* {display:block;}
+nombre[sexo]::before {content: " (Genero " attr(sexo) " ) ";color:blue;font-size:5mm;}
+nombre[sexo]::after {content: " edad: " attr(edad);color:grey;}
+apellido{
+  content: "(Apellido ) ";
+  color: red;
+}
+
