@@ -1,0 +1,49 @@
+ficha {
+  color: rgb(0, 0, 0);
+    display: table;
+    width: 35%;
+    font-size: 50px;
+    font-weight: bold;
+  background-image: url(../images/FondoFichas.jpg);
+  border: 1px solid black;  /*Creacion de cuadro*/
+            padding: 10px;
+            margin: 15px auto; /*Centrado de cuadro*/
+}
+  
+  fichero {
+    background-image: url(../images/Background1a.png);
+    padding-top: 10px;
+  }
+  
+   direccion, ISSS, estatura, telefono {
+    font-size: 25px; /* Aumentar el tamaño del texto */
+    display: block;
+  }
+  
+  direccion, ISSS, estatura, telefono {
+    margin-left: 20px;
+  }
+  
+  nombre, apellido {
+    font-family: "Arial Black", Arial, sans-serif;/* Fuente */
+    font-size: 35px; /* Aumentar el tamaño del texto */
+    font-weight: bold;
+  }
+
+  a {
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;/* Fuente */
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: #1b02fc;
+    color: #ffffff;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1.5px solid #4d2a8f;
+    width: 120px; 
+    
+  }
+
+  

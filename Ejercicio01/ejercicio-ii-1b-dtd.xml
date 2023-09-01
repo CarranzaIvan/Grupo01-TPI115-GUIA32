@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilo-ii-1b.css"?>
 <!-- ejemplodtd1.xml GRUPO_01 -->
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+,a)>

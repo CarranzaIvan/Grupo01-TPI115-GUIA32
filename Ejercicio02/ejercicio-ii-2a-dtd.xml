@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../Ejercicio01/estilo-ii-1a.css"?>
 <!-- ejemplodtd1.xml GRUPO_01 -->
 <!DOCTYPE fichero SYSTEM "fichero1a.dtd">
 <fichero>
  <ficha>
-  <nombre sexo="femenino" edad="17">Angelina</nombre>
-  <apellido>Fernandez</apellido>
+   <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido> Fernandez</apellido>
   <estatura>1.7mt</estatura>
   <direccion>c/Ulises, 36</direccion>
+  <telefono>2525-2525</telefono>
   <ISSS>4852256-54488-6</ISSS>
  </ficha>
- <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="_self">Inicio</a>
+  <!-- Ficha 2-->
+ <ficha>
+  <nombre sexo="masculino" edad="18">Romeo</nombre>
+  <apellido> Santos</apellido>
+  <estatura>1.8mt</estatura>
+  <direccion>c/Carmen, 37</direccion>
+  <ISSS>485225754-45</ISSS>
+ </ficha>
+ <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="_self">Volver</a>
 </fichero>
 

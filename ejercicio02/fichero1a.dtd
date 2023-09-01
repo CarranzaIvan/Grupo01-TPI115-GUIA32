@@ -8,7 +8,7 @@
       target (_blank|_self) "_self">
 
     <!-- Elementos del fichero-->
-<!ELEMENT ficha (nombre, apellido, estatura*, direccion*, DUI?, ISSS?)>
+<!ELEMENT ficha (nombre, apellido, estatura*, direccion*, telefono*, DUI?, ISSS?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
 <!ATTLIST nombre edad  CDATA  #IMPLIED>
@@ -16,4 +16,5 @@
 <!ELEMENT estatura (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT DUI (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
 <!ELEMENT ISSS (#PCDATA)>
