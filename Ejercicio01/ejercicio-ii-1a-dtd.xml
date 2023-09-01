@@ -20,7 +20,8 @@
 		<!ELEMENT direccion (#PCDATA)>
 		<!ELEMENT DUI (#PCDATA)>
     <!ELEMENT telefono (#PCDATA)>
-		<!ELEMENT ISSS (#PCDATA)>		]>
+		<!ELEMENT ISSS (#PCDATA)>	
+]>
 <fichero>
   <!-- Ficha 1-->
  <ficha>

@@ -3,8 +3,9 @@
 <!-- ejemplodtd1.xml GRUPO_01 -->
 <!DOCTYPE fichero SYSTEM "fichero1a.dtd">
 <fichero>
+ <!-- Ficha 1-->
  <ficha>
-   <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
   <apellido> Fernandez</apellido>
   <estatura>1.7mt</estatura>
   <direccion>c/Ulises, 36</direccion>

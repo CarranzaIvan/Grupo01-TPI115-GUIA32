@@ -1,6 +1,40 @@
 ﻿* {display:block;}
 nombre[sexo]::before {content: " (Genero " attr(sexo) " ) ";color:blue;font-size:3mm;}
 nombre[sexo]::after {content: " sexo: " attr(sexo);color:red;}
+apellido::before {content: "Apellido: "}
+
+/* estilo-ii-1c.css */
+fichero {
+  background-image: url(../images/Background1c.png);
+  font-family: Arial, sans-serif;
+}
+
+ficha {
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+nombre{
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff; /* Azul */
+}
+
+apellido {
+  font-size: 16px;
+}
+
+direccion {
+  font-style: italic;
+}
+
+DUI {
+  font-weight: bold;
+  color: #e60000; /* Rojo oscuro */
+}
+
 /*Para el botón de regreso*/
 a {
     text-align: center;

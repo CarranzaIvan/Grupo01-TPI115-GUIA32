@@ -11,7 +11,7 @@
         target (_blank|_self) "_self">
 
     <!-- Elementos del fichero-->
-<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
+<!ELEMENT ficha (nombre, apellido, direccion*, DUI?,cargo)>
 		<!ELEMENT nombre (#PCDATA)>
 		    <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
             <!ATTLIST nombre edad  CDATA  #IMPLIED>
@@ -19,17 +19,21 @@
             <!ATTLIST nombre codTel  CDATA  #FIXED "503">
 		<!ELEMENT apellido (#PCDATA)>
 		<!ELEMENT direccion (#PCDATA)>
-		<!ELEMENT DUI (#PCDATA)>		]>
+		<!ELEMENT DUI (#PCDATA)>
+    <!ELEMENT cargo (#PCDATA)>
+]>
 <fichero>
  <ficha>
   <nombre sexo="femenino" edad="17" numFicha="1">Angelina</nombre>
   <apellido>Fernandez</apellido>
   <direccion>c/Ulises, 36</direccion>
+  <cargo>Estudiante</cargo>
  </ficha>
  <ficha>
   <nombre sexo="masculino" edad="28" numFicha="2">Carlos</nombre>
   <apellido>López</apellido>
   <direccion>Avenida Principal, 123</direccion>
+  <cargo>Arquitecto</cargo>
 </ficha>
  <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="_self">Inicio</a>
 </fichero>

@@ -1,11 +1,20 @@
 <!--ficheroa.dtd -->
-<!ELEMENT fichero (ficha+)>
-<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
-<!ELEMENT nombre (#PCDATA)>
-<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
-<!ATTLIST nombre edad  CDATA  #IMPLIED>
-<!ATTLIST nombre numFicha  CDATA  #REQUIRED>
-<!ATTLIST nombre codTel  CDATA  #FIXED 503>
-<!ELEMENT apellido (#PCDATA)>
-<!ELEMENT direccion (#PCDATA)>
-<!ELEMENT DUI (#PCDATA)>
+<!ELEMENT fichero (ficha+,a)>
+  <!-- Enlace de retorno-->
+      <!ELEMENT a (#PCDATA)>
+      <!ATTLIST a 
+        href CDATA #IMPLIED
+        xmlns CDATA #IMPLIED
+        target (_blank|_self) "_self">
+
+    <!-- Elementos del fichero-->
+<!ELEMENT ficha (nombre, apellido, direccion*, DUI?,cargo)>
+		<!ELEMENT nombre (#PCDATA)>
+		    <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+            <!ATTLIST nombre edad  CDATA  #IMPLIED>
+            <!ATTLIST nombre numFicha  CDATA  #REQUIRED>
+            <!ATTLIST nombre codTel  CDATA  #FIXED "503">
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+    <!ELEMENT cargo (#PCDATA)>

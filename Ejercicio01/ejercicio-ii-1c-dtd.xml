@@ -17,7 +17,8 @@
             <!ATTLIST nombre edad  CDATA  #IMPLIED>
 		<!ELEMENT apellido (#PCDATA)>
 		<!ELEMENT direccion (#PCDATA)>
-		<!ELEMENT DUI (#PCDATA)>		]>
+		<!ELEMENT DUI (#PCDATA)>	
+]>
 
 <fichero>
  <ficha>
