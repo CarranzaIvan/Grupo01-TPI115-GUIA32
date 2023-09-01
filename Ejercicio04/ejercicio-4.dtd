@@ -1,5 +1,5 @@
-<!ELEMENT biblioteca (libro+, a)>
-<!ELEMENT a(#PCDATA)>
+<!ELEMENT biblioteca (libro+,a)>
+<!ELEMENT a (#PCDATA)>
 <!ATTLIST a 
   href CDATA #IMPLIED
   xmlns CDATA #IMPLIED

@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejemplodtd1.xml GRUPO_01 -->
 <!DOCTYPE fichero [
-		<!ELEMENT fichero (ficha+)>
+		<!ELEMENT fichero (ficha+,a)>
+  <!-- Enlace de retorno-->
+      <!ELEMENT a (#PCDATA)>
+      <!ATTLIST a 
+        href CDATA #IMPLIED
+        xmlns CDATA #IMPLIED
+        target (_blank|_self) "_self">
+
+    <!-- Elementos del fichero-->
 <!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>

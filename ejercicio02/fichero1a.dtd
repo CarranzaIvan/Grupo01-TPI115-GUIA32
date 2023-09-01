@@ -1,5 +1,13 @@
-<!—ficheroa.dtd -->
-<!ELEMENT fichero (ficha+)>
+<!--ficheroa.dtd -->
+<!ELEMENT fichero (ficha+,a)>
+<!-- Enlace de retorno-->
+    <!ELEMENT a (#PCDATA)>
+    <!ATTLIST a 
+      href CDATA #IMPLIED
+      xmlns CDATA #IMPLIED
+      target (_blank|_self) "_self">
+
+    <!-- Elementos del fichero-->
 <!ELEMENT ficha (nombre, apellido, estatura*, direccion*, DUI?, ISSS?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>

@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="estilo-ii-1c.css"?>
 <!-- ejemplodtd1.xml GRUPO_01 -->
-<!DOCTYPE fichero SYSTEM "estilo-ii-1c.css"[
-		<!ELEMENT fichero (ficha+)>
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+,a)>
+<!-- Enlace de retorno-->
+    <!ELEMENT a (#PCDATA)>
+    <!ATTLIST a 
+      href CDATA #IMPLIED
+      xmlns CDATA #IMPLIED
+      target (_blank|_self) "_self">
+
+    <!-- Elementos del fichero-->
 <!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
