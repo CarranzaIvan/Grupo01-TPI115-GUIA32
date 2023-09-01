@@ -1,4 +1,4 @@
-<!—fichero.dtd -->
+<!-- ficha.dtd -->
 <!ELEMENT fichero (ficha+)>
 <!ELEMENT ficha (nombre, apellido, direccion*, dui?)>
 <!ELEMENT nombre (#PCDATA)>

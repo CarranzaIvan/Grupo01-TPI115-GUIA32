@@ -1,8 +1,17 @@
 ﻿* {display:block;}
-nombre[sexo]::before {content: " (Genero " attr(sexo) " ) ";color:blue;font-size:5mm;}
-nombre[sexo]::after {content: " edad: " attr(edad);color:grey;}
-apellido{
-  content: "(Apellido ) ";
-  color: red;
-}
-
+nombre[sexo]::before {content: " (Genero " attr(sexo) " ) ";color:blue;font-size:3mm;}
+nombre[sexo]::after {content: " sexo: " attr(sexo);color:red;}
+/*Para el botón de regreso*/
+a {
+    text-align: center;
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: #be4141;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1.5px solid #8f2a2a;
+    width: 120px; 
+    
+  }
