@@ -8,6 +8,7 @@ ficha {
     border: 1px solid black;  /*Creacion de cuadro*/
               padding: 10px;
               margin: 15px auto; /*Centrado de cuadro*/
+              border-radius: 15%; /* Hace que el cuadro sea completamente redondo */
   }
   
   fichero {
@@ -15,12 +16,9 @@ ficha {
     padding-top: 10px;
   }
   
-   direccion, ISSS, estatura, telefono {
+   direccion{
     font-size: 25px; /* Aumentar el tamaño del texto */
     display: block;
-  }
-  
-  direccion, ISSS, estatura, telefono {
     margin-left: 20px;
   }
   
@@ -37,7 +35,7 @@ a {
     display: inline-block;
     padding: 8px 10px;
     background-color: #02fc1f;
-    color: #ffffff;
+    color: #040404;
     border-radius: 25px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;

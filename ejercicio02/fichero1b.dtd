@@ -1,9 +1,11 @@
-<!—ficheroa.dtd -->
+<!--ficheroa.dtd -->
 <!ELEMENT fichero (ficha+)>
 <!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
 <!ATTLIST nombre edad  CDATA  #IMPLIED>
+<!ATTLIST nombre numFicha  CDATA  #REQUIRED>
+<!ATTLIST nombre codTel  CDATA  #FIXED 503>
 <!ELEMENT apellido (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT DUI (#PCDATA)>
