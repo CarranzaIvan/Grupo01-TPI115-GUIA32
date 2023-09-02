@@ -1,0 +1,76 @@
+* {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e0e4cc;
+}
+
+integraciondegrupos {
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+universidad{
+  color: gray;
+  font-size: 70px;
+  font-weight: bold;
+  background-color: white;
+}
+
+universidad{
+  font-size: 40px; 
+  display: block;
+}
+
+facultad{
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  background-color: gray;
+}
+facultad,carrera,materia,docente,actividadevaluada ,grupo{
+  font-size: 25px; 
+  font-weight: bold;
+  display: block;
+}
+
+alumno{
+  color: black;
+}
+alumno {
+  display: table-row;
+}
+
+carnet,nombre,apellidos,calificacion{
+  border: black 1px solid;
+  display: table-cell;
+}
+lista {
+  display: table;
+  border-spacing: 10px;
+  border: black 1px solid;
+  margin: 15px auto;
+  text-align: center;
+}
+
+carnet,nombre,apellidos,calificacion {
+  font-size: 30px; 
+  font-weight: bold;
+}
+
+a {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: auto;
+  width: 40%;
+  font-weight: bold
+}
