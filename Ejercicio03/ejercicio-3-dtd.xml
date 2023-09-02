@@ -13,7 +13,7 @@
       <nombrecarrera>ingenieria en sistemas informaticos</nombrecarrera>
       <codigocarrera>i10515-1998</codigocarrera>
       <materia>
-        <nombremateria>tecnicas de programacion para internet</nombremateria>
+        <nombremateria>Tecnicas de programacion para internet</nombremateria>
         <codigomateria>tpi115</codigomateria>
 
         <grupo>
@@ -27,7 +27,7 @@
 
             <grupoDeTrabajo numero="uno">
                 <descripcion>Grupo uno</descripcion>
-                <tema> HTML (Lenguaje de Marcado Extensible)</tema>
+                <tema> XML (Lenguaje de Marcado Extensible)</tema>
                 <alumno codigo="LC18025">
                     <carnet>LC18025</carnet>
                     <nombre>Aura Guadalupe</nombre>
@@ -60,7 +60,7 @@
 
             <grupoDeTrabajo numero="dos">
                 <descripcion>Grupo dos</descripcion>
-                <tema> HTML (Lenguaje de Marcado Extensible)</tema>
+                <tema> HTML (Lenguaje de Marcado de Hipertexto)</tema>
                 <alumno codigo="CC18026">
                   <carnet>CC18026</carnet>
                   <nombre>Juan Enrique</nombre>
