@@ -1,0 +1,45 @@
+<!ELEMENT universidad (nombreUniversidad, facultad+, a)>
+      <!ATTLIST universidad siglas  CDATA  #FIXED "UES">
+<!-- Enlace de retorno-->
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a 
+  href CDATA #IMPLIED
+  xmlns CDATA #IMPLIED
+  target (_blank|_self) "_self">
+<!ELEMENT nombreUniversidad (#PCDATA)>
+<!-- Facultad-->
+<!ELEMENT facultad (nombrefacultad, carrera+)>
+    <!ELEMENT nombrefacultad (#PCDATA)>
+    <!ELEMENT carrera (nombrecarrera,codigocarrera,materia)>
+      <!ELEMENT nombrecarrera (#PCDATA)>
+      <!ELEMENT codigocarrera (#PCDATA)>
+      <!ELEMENT materia (nombremateria,codigomateria,grupo+)>
+        <!ELEMENT nombremateria (#PCDATA)>
+        <!ELEMENT codigomateria (#PCDATA)>
+        <!ELEMENT grupo ((GT|GL|GD), docente, actividadEvaluada, grupoDeTrabajo+)>
+            <!ELEMENT GT (#PCDATA)>
+            <!ELEMENT GL (#PCDATA)>
+            <!ELEMENT GD (#PCDATA)>
+            <!ELEMENT docente (codigod,nombred,apellidosd)>
+              <!ELEMENT codigod (#PCDATA)>
+              <!ELEMENT nombred (#PCDATA)>
+              <!ELEMENT apellidosd (#PCDATA)>
+              <!ELEMENT actividadEvaluada (#PCDATA)>
+                <!ATTLIST actividadEvaluada ponderacion CDATA  #REQUIRED>
+            <!ELEMENT grupoDeTrabajo (descripcion,tema, (alumno)+)>
+                <!ELEMENT descripcion (#PCDATA)>
+                <!ELEMENT tema (#PCDATA)>
+                <!ATTLIST grupoDeTrabajo numero CDATA  #REQUIRED>
+                <!ELEMENT alumno (carnet,nombre,apellidos,genero,calificacion?)>
+                  <!-- Codigo es atributo requerido-->
+                  <!ATTLIST alumno codigo ID #REQUIRED>
+                  <!ELEMENT carnet (#PCDATA)>
+                  <!-- Vencimiento es atributo opcional-->
+                    <!ATTLIST carnet vence CDATA #IMPLIED>
+                  <!ELEMENT nombre (#PCDATA)>
+                  <!ELEMENT apellidos (#PCDATA)>
+                  <!ATTLIST genero sexo (f|m) "f">
+                  <!-- Genero es obligatorio-->
+                  <!ELEMENT genero (#PCDATA)>
+                  <!-- Calificacion es no obligatoria-->
+                  <!ELEMENT calificacion (#PCDATA)>
